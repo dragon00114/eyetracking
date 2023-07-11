@@ -1,0 +1,23 @@
+{
+    "name": "eyetracking",
+    "version": "3.0.1",
+    "description": "Eye tracking in node.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "install": "cd ./cpp && node-gyp configure build"
+    },
+    "author": "dragon00114",
+    "license": "ISC",
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EyeTrackingCSE/focus.git"
+    },
+    "bugs": {
+        "url": "https://github.com/EyeTrackingCSE/focus/issues"
+    },
+    "homepage": "https://github.com/EyeTrackingCSE/focus#readme"
+}
